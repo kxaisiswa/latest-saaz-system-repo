@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Student Login | SAAZ Student Management System</title>
+	  <link rel="icon" href="assets/img/SAAZ_logo.png">
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
