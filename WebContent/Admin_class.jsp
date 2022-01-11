@@ -14,21 +14,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Staff | SAAZ Student Management System</title>
-  <link rel="icon" href="assets/img/SAAZ_logo.png">
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="sidebars.css" rel="stylesheet">
-  <style>
-      table {
-          background-color: #fff !important;
-      }
-      
-      th {
-          background-color: #ffc909 !important;
-      }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Staff | SAAZ Student Management System</title>
+    <link rel="icon" href="assets/img/SAAZ_logo.png">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="sidebars.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <style>
+        table {
+            background-color: #fff !important;
+        }
+        
+        th {
+            background-color: #ffc909 !important;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $('#table_id').DataTable();
+        });
+    </script>
 </head>
 <body class="bg-light">
     <div class="p-3 text-dark sidebar-style">
