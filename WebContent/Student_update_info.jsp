@@ -19,13 +19,14 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="sidebars.css" rel="stylesheet">
     <title>Student | SAAZ Student Management System</title>
+    <link rel="icon" href="assets/img/SAAZ_logo.png">
     <style>
         table {
             background-color: #fff !important;
         }
         
         th {
-            background-color: #e6e6e6 !important;
+            background-color: #ffcc00 !important;
         }
     </style>
 	<script>
@@ -62,6 +63,7 @@
 </head>
 <body class="bg-light">
 	<div class="p-3 text-dark sidebar-style">
+	<center><img src="assets/img/SAAZ_logo.png" alt="Logo Sekolah" style="width: 60%;"></center>
         <h1 class="py-2 align-items-center fw-bold text-dark fs-4">Student</h1>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
