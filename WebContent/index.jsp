@@ -17,6 +17,14 @@
         <div class="form-signin">
             <input type="button" value="Student"><input type="button" value="Staff" class="inactive" onclick="window.location.href='Admin_login.jsp'">
             <form action="LoginServlet" method="post">
+		<div class="row g-3 mt-1 mb-2">
+	       		<div class="col-5 text-end">
+	         		<img src="assets/img/SAAZ_logo.png" width="80" height="80" />
+	            	</div>
+	        	<div class="col-7">
+	            		<h1 class="h5 text-start">SAAZ Student<br>Management<br>System</h1>
+			</div>
+	        </div>
                 <h1 class="h3 mb-3 fw-bolder p-3">Sign in</h1>				
 				<c:if test="${session_status != null}">
 					<div class="alert alert-danger" role="alert">
