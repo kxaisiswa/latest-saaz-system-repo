@@ -51,7 +51,7 @@ public class LoginServlet extends HttpServlet {
 					}
 				}
 				else {
-					session.setAttribute("session_status", "Exactly seven numbers only");
+					session.setAttribute("session_status", "ID exactly seven numbers only");
 					response.sendRedirect("index.jsp");
 				}
 			}
@@ -84,7 +84,7 @@ public class LoginServlet extends HttpServlet {
 					}
 				}
 				else {
-					session.setAttribute("session_status", "Exactly five numbers only");
+					session.setAttribute("session_status", "ID exactly five numbers only");
 					response.sendRedirect("Admin_login.jsp");
 				}
 			}
