@@ -17,6 +17,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Staff | SAAZ Student Management System</title>
+    <link rel="icon" href="assets/img/SAAZ_logo.png">
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="sidebars.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -28,7 +29,7 @@
         }
         
         th {
-            background-color: #e6e6e6 !important;
+            background-color: #ffc909 !important;
         }
     </style>
     <script>
@@ -103,6 +104,7 @@
 </head>
 <body class="bg-light">
     <div class="p-3 text-dark sidebar-style">
+	<center><img src="assets/img/SAAZ_logo.png" alt="Logo Sekolah" style="width: 60%;"></center>
         <h1 class="py-2 d-flex align-items-center fw-bold text-dark fs-4">Staff</h1>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
