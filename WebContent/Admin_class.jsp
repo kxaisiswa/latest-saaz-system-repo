@@ -114,7 +114,7 @@
                         <label class="form-label">Kapasiti Kelas</label>
                         <input type="number" class="form-control" name="classcapacity" min="10" max="40" required>
                         <div class="invalid-feedback">
-                            Sila isi kapasiti kelas antara 10 hingga 40.
+                            Sila isi kapasiti kelas dengan betul (antara 10 hingga 40).
                         </div>
                     </div>
                     <div class="col-6">
