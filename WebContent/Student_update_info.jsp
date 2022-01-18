@@ -160,28 +160,28 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">No. Matrik</label>
+                        <label class="form-label">No. Matrik *</label>
                         <input type="text" class="form-control" name="studid" placeholder="" value="<c:out value="${studentinfo.studid}" />" readonly>
                         <div class="invalid-feedback">
                             Sila isi no. matrik dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">No. Kad Pengenalan</label>
+                        <label class="form-label">No. Kad Pengenalan *</label>
                         <input type="text" class="form-control" name="studic" placeholder="" value="<c:out value="${studentinfo.studic}" />" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. kad pengenalan dengan betul.
                         </div>
                     </div>
                     <div class="col-8">
-                        <label class="form-label">Nama</label>
+                        <label class="form-label">Nama *</label>
                         <input type="text" class="form-control" name="studname" placeholder="" value="<c:out value="${studentinfo.studname}" />" required>
                         <div class="invalid-feedback">
                             Sila isi nama pelajar dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Semester</label>
+                        <label class="form-label">Semester *</label>
                         <select class="form-select" name="studsemester" required>
 							<option></option>
 							<option value="1" <c:if test = "${studentinfo.studsemester == 1}"><c:out value="selected" /></c:if> >1</option>
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Jantina</label>
+                        <label class="form-label">Jantina *</label>
                         <select class="form-select" name="studgender" required>
 							<option></option>
 							<option value="Lelaki" <c:if test = "${studentinfo.studgender == 'Lelaki'}"><c:out value="selected" /></c:if> >Lelaki</option>
@@ -204,7 +204,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Bangsa</label>
+                        <label class="form-label">Bangsa *</label>
                         <select class="form-select" name="studrace" required>
 							<option></option>
 							<option value="Melayu" <c:if test = "${studentinfo.studrace == 'Melayu'}"><c:out value="selected" /></c:if> >Melayu</option>
@@ -216,7 +216,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Agama</label>
+                        <label class="form-label">Agama *</label>
                         <select class="form-select" name="studreligion" required>
 							<option></option>
 							<option value="Islam" <c:if test = "${studentinfo.studreligion == 'Islam'}"><c:out value="selected" /></c:if> >Islam</option>
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Kewarganegaraan</label>
+                        <label class="form-label">Kewarganegaraan *</label>
                         <select class="form-select" name="studnationality" required>
 							<option></option>
 							<option value="Warganegara" <c:if test = "${studentinfo.studnationality == 'Warganegara'}"><c:out value="selected" /></c:if> >Warganegara</option>
@@ -241,35 +241,35 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Tarikh Lahir</label>
+                        <label class="form-label">Tarikh Lahir *</label>
                         <input type="text" class="form-control" name="studbirthdate" placeholder="" value="<c:out value="${studentinfo.studbirthdate}" />" required onfocus="(this.type='date')">
                         <div class="invalid-feedback">
                             Sila isi tarikh lahir dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">No. Sijil Lahir</label>
+                        <label class="form-label">No. Sijil Lahir *</label>
                         <input type="text" class="form-control" name="studbirthcertnum" placeholder="" value="<c:out value="${studentinfo.studbirthcertnum}" />" maxLength="10" required>
                         <div class="invalid-feedback">
                             Sila isi no. sijil lahir dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Email Pelajar</label>
+                        <label class="form-label">Email Pelajar *</label>
                         <input type="email" class="form-control" name="studemail" placeholder="" value="<c:out value="${studentinfo.studemail}" />" readonly>
                         <div class="invalid-feedback">
                             Sila isi email pelajar dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">No. Telefon</label>
+                        <label class="form-label">No. Telefon *</label>
                         <input type="text" class="form-control" name="studphonenum" placeholder="" value="<c:out value="${studentinfo.studphonenum}" />" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. telefon dengan betul.
                         </div>
                     </div>
                     <div class="col-12">
-                        <label class="form-label">Alamat</label>
+                        <label class="form-label">Alamat *</label>
                         <textarea name="studaddress" class="form-control" style="resize: none;" rows="5" required><c:out value="${studentinfo.studaddress}"/></textarea>
                         <div class="invalid-feedback">
                             Sila masukkan alamat dengan betul.
@@ -302,14 +302,14 @@
                     <div class="col-4"></div>
                     <div class="row mt-4" id="homeinput" style="display: none !important;">
 	                    <div class="col-6">
-	                        <label class="form-label">Kenderaan</label>
+	                        <label class="form-label">Kenderaan *</label>
 	                        <input type="text" class="form-control" name="transportmode" placeholder="" value="<c:out value="${studentinfo.transportmode}" />">
 	                        <div class="invalid-feedback">
 	                            Sila isi kenderaan dengan betul.
 	                        </div>
 	                    </div>
 	                    <div class="col-6">
-	                        <label class="form-label">Jarak Rumah</label>
+	                        <label class="form-label">Jarak Rumah *</label>
 	                        <input type="number" class="form-control" name="studschooldistance" placeholder="" value="<c:out value="${studentinfo.studschooldistance}" />">
 	                        <div class="invalid-feedback">
 	                            Sila isi jarak rumah dengan betul.
@@ -318,7 +318,7 @@
 					</div>
 	                <div class="row mt-4" id="collegeinput" style="display: none !important;">
 	                	<div class="col-6">
-	                        <label class="form-label">Kod Kolej</label>
+	                        <label class="form-label">Kod Kolej *</label>
 	                        <select class="form-select" name="collegecode" required>
 								<option></option>
 								<option value="A" <c:if test = "${studentinfo.collegecode == 'A'}"><c:out value="selected" /></c:if> >A</option>
@@ -329,7 +329,7 @@
 	                        </div>
 	                    </div>
 	                    <div class="col-6">
-	                        <label class="form-label">Nama Kolej</label>
+	                        <label class="form-label">Nama Kolej *</label>
 	                        <select class="form-select" name="collegename" required>
 								<option></option>
 								<option value="ASTRIK" <c:if test = "${studentinfo.collegename == 'ASTRIK'}"><c:out value="selected" /></c:if> >ASTRIK</option>
