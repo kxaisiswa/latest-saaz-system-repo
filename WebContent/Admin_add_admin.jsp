@@ -94,28 +94,28 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">ID Staf</label>
+                        <label class="form-label">ID Staf*</label>
                         <input type="text" class="form-control" name="adminid" maxLength="5" required>
                         <div class="invalid-feedback">
                             Sila isi ID staff dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Kata Laluan</label>
+                        <label class="form-label">Kata Laluan*</label>
                         <input type="text" class="form-control" name="adminpassword" maxLength="8" required>
                         <div class="invalid-feedback">
                             Sila isi kata laluan dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Nama</label>
+                        <label class="form-label">Nama*</label>
                         <input type="text" class="form-control" name="adminname" required>
                         <div class="invalid-feedback">
                             Sila isi nama staf dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Tahap</label>
+                        <label class="form-label">Tahap*</label>
                         <select class="form-select" name="adminlevel" required>
 							<option value=""></option>
 							<option value="Superadmin">Superadmin</option>
