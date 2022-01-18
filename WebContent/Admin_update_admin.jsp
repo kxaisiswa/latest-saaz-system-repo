@@ -77,32 +77,32 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">ID Staf</label>
+                        <label class="form-label">ID Staf*</label>
                         <input type="hidden" class="form-control" name="update_action" value="level">
                         <input type="text" class="form-control" name="adminid" value="<c:out value="${admininfo.adminid}" />" readonly>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Nama</label>
+                        <label class="form-label">Nama*</label>
                         <input type="text" class="form-control" name="adminname" value="<c:out value="${admininfo.adminname}" />" readonly>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Kata Laluan</label>
+                        <label class="form-label">Kata Laluan*</label>
                         <input type="text" class="form-control" name="adminpassword" value="<c:out value="${admininfo.adminpassword}" />" readonly>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">ID Penyelia</label>
+                        <label class="form-label">ID Penyelia*</label>
                         <input type="text" class="form-control" name="superviseid" value="<c:out value="${admininfo.superviseid}" />" readonly>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Email Staf</label>
+                        <label class="form-label">Email Staf*</label>
                         <input type="email" class="form-control" name="adminemail" value="<c:out value="${admininfo.adminemail}" />" readonly>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">No. Telefon</label>
+                        <label class="form-label">No. Telefon (+60)*</label>
                         <input type="text" class="form-control" name="adminphonenum" value="<c:out value="${admininfo.adminphonenum}" />" readonly>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Tahap</label>
+                        <label class="form-label">Tahap*</label>
                         <select class="form-select" name="adminlevel" required>
 							<option value=""></option>
 							<option <c:if test = "${admininfo.adminlevel == 'Superadmin'}"><c:out value="selected" /></c:if> value="Superadmin">Superadmin</option>
