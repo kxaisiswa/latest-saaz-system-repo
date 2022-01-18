@@ -97,14 +97,14 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">Kod Program</label>
+                        <label class="form-label">Kod Program*</label>
                         <input type="text" class="form-control" name="progcode" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Sila isi kod program dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label for="lastName" class="form-label">Nama Program</label>
+                        <label for="lastName" class="form-label">Nama Program*</label>
                         <input type="text" class="form-control" name="progname" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Sila isi nama program dengan betul.
