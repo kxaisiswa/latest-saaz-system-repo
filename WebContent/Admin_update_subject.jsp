@@ -67,28 +67,28 @@
 						</c:choose>
 					</c:if>
                     <div class="col-3">
-                        <label class="form-label">Kod Subjek</label>
+                        <label class="form-label">Kod Subjek*</label>
                         <input type="text" class="form-control" name="subjcode" value="<c:out value="${subjectinfo.subjcode}"/>" required>
                         <div class="invalid-feedback">
                             Sila isi kod subjek dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Nama Subjek</label>
+                        <label class="form-label">Nama Subjek*</label>
                         <input type="text" class="form-control" name="subjname" value="<c:out value="${subjectinfo.subjname}"/>" required>
                         <div class="invalid-feedback">
                             Sila isi nama subjek dengan betul.
                         </div>
                     </div>
                     <div class="col-3">
-                        <label class="form-label">Jam Kredit</label>
+                        <label class="form-label">Jam Kredit*</label>
                         <input type="number" class="form-control" name="subjcredit" value="<c:out value="${subjectinfo.subjcredit}"/>" required>
                         <div class="invalid-feedback">
                             Sila isi jam kredit dengan betul.
                         </div>
                     </div>
                     <div class="col-12">
-                        <label class="form-label">Syarat</label>
+                        <label class="form-label">Syarat*</label>
                         <textarea name="subjrequirement" class="form-control" style="resize: none;" rows="5" required><c:out value="${subjectinfo.subjrequirement}"/></textarea>
                         <div class="invalid-feedback">
                             Sila isi syarat subjek dengan betul.
