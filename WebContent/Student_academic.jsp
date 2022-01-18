@@ -126,7 +126,7 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">Program</label>
+                        <label class="form-label">Program*</label>
                         <select class="form-select" name="progcode" onchange="progvalue(this.value)" required>
                             <option value=""></option>
 							<c:forEach items="${programlist}" var="pl">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Kelas</label>
+                        <label class="form-label">Kelas*</label>
                         <select class="form-select" id="selectclass" name="classid" required>
                             <option value=""></option>
                         </select>
