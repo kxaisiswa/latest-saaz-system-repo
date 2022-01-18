@@ -118,7 +118,7 @@
 					</c:if>
                     <div class="col-6">
                         <label class="form-label">No. Matrik *</label>
-                        <input type="text" class="form-control" name="studid" value="<c:out value="${studentinfo.studid}" />" required>
+                        <input type="text" class="form-control" name="studid" value="<c:out value="${studentinfo.studid}" />" readonly>
                         <div class="invalid-feedback">
                             Sila isi no. matrik dengan betul.
                         </div>
