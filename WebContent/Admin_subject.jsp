@@ -97,28 +97,28 @@
 						</c:choose>
 					</c:if>
                     <div class="col-3">
-                        <label class="form-label">Kod Subjek</label>
+                        <label class="form-label">Kod Subjek*</label>
                         <input type="text" class="form-control" name="subjcode" maxLength="5" required>
                         <div class="invalid-feedback">
                             Sila isi kod subjek dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Nama Subjek</label>
+                        <label class="form-label">Nama Subjek*</label>
                         <input type="text" class="form-control" name="subjname" required>
                         <div class="invalid-feedback">
                             Sila isi nama subjek dengan betul.
                         </div>
                     </div>
                     <div class="col-3">
-                        <label class="form-label">Jam Kredit</label>
+                        <label class="form-label">Jam Kredit*</label>
                         <input type="number" class="form-control" name="subjcredit" min="1" max="4" required>
                         <div class="invalid-feedback">
                             Sila isi jam kredit dengan betul (antara 1 hingga 4).
                         </div>
                     </div>
                     <div class="col-12">
-                        <label class="form-label">Syarat</label>
+                        <label class="form-label">Syarat*</label>
                         <textarea name="subjrequirement" class="form-control" style="resize: none;" rows="5" required></textarea>
                         <div class="invalid-feedback">
                             Sila isi syarat subjek dengan betul.
