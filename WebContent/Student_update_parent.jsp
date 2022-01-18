@@ -76,28 +76,28 @@
 					</c:if>
                     <input type="hidden" name="studid" value="<c:out value="${session_id}" />">
                     <div class="col-12">
-                        <label class="form-label">Nama *</label>
+                        <label class="form-label">Nama*</label>
                         <input type="text" class="form-control" name="parentname" placeholder="" value="<c:out value="${studentinfo.parent.parentname}" />" required>
                         <div class="invalid-feedback">
                             Sila isi nama dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">No. Kad Pengenalan *</label>
+                        <label class="form-label">No. Kad Pengenalan*</label>
                         <input type="text" class="form-control" name="parentic" placeholder="" value="<c:out value="${studentinfo.parent.parentic}" />" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. kad pengenalan dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">No. Telefon *</label>
+                        <label class="form-label">No. Telefon (+60)*</label>
                         <input type="text" class="form-control" name="parentphonenum" placeholder="" value="<c:out value="${studentinfo.parent.parentphonenum}" />" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. telefon dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Kewarganegaraan *</label>
+                        <label class="form-label">Kewarganegaraan*</label>
                         <select class="form-select" name="parentnationality" required>
 							<option></option>
 							<option value="Warganegara" <c:if test = "${studentinfo.parent.parentnationality == 'Warganegara'}"><c:out value="selected" /></c:if> >Warganegara</option>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Bangsa *</label>
+                        <label class="form-label">Bangsa*</label>
                         <select class="form-select" name="parentrace" required>
 							<option></option>
 							<option value="Melayu" <c:if test = "${studentinfo.parent.parentrace == 'Melayu'}"><c:out value="selected" /></c:if> >Melayu</option>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Agama *</label>
+                        <label class="form-label">Agama*</label>
                         <select class="form-select" name="parentreligion" required>
 							<option></option>
 							<option value="Islam" <c:if test = "${studentinfo.parent.parentreligion == 'Islam'}"><c:out value="selected" /></c:if> >Islam</option>
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Hubungan *</label>
+                        <label class="form-label">Hubungan*</label>
                         <select class="form-select" name="parentrelation" required>
 							<option></option>
 							<option value="Ibu" <c:if test = "${studentinfo.parent.parentrelation == 'Ibu'}"><c:out value="selected" /></c:if> >Ibu</option>
@@ -146,28 +146,28 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <label for="lastName" class="form-label">Bil. Tanggungan *</label>
+                        <label for="lastName" class="form-label">Bil. Tanggungan*</label>
                         <input type="number" class="form-control" name="parentnumdependent" placeholder="" value="<c:out value="${studentinfo.parent.parentnumdependent}" />" min="0" max="20" required>
                         <div class="invalid-feedback">
                             Sila isi bil. tanggungan dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Pekerjaan *</label>
+                        <label class="form-label">Pekerjaan*</label>
                         <input type="text" class="form-control" name="parentjob" placeholder="" value="<c:out value="${studentinfo.parent.parentjob}" />" required>
                         <div class="invalid-feedback">
                             Sila isi pekerjaan dengan betul.
                         </div>
                     </div>
                     <div class="col-3">
-                        <label class="form-label">Gaji Bulanan *</label>
+                        <label class="form-label">Gaji Bulanan (RM)*</label>
                         <input type="text" class="form-control" name="parentincome" placeholder="" value="<c:out value="${studentinfo.parent.parentincome}" />" required>
                         <div class="invalid-feedback">
                             Sila isi gaji bulanan dengan betul.
                         </div>
                     </div>
                     <div class="col-3">
-                        <label class="form-label">No. Cukai Pendapatan *</label>
+                        <label class="form-label">No. Cukai Pendapatan*</label>
                         <input type="text" class="form-control" name="parenttaxnumber" placeholder="" value="<c:out value="${studentinfo.parent.parenttaxnumber}" />" required>
                         <div class="invalid-feedback">
                             Sila isi no. cukai pendapatan dengan betul.
