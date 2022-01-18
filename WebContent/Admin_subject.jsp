@@ -114,7 +114,7 @@
                         <label class="form-label">Jam Kredit</label>
                         <input type="number" class="form-control" name="subjcredit" min="1" max="4" required>
                         <div class="invalid-feedback">
-                            Sila isi jam kredit antara 1 hingga 4.
+                            Sila isi jam kredit dengan betul (antara 1 hingga 4).
                         </div>
                     </div>
                     <div class="col-12">
