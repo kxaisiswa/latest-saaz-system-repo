@@ -182,7 +182,7 @@
                     </div>
                     <div class="col-4">
                         <label class="form-label">Semester*</label>
-                        <select class="form-select" name="studsemester" readonly>
+                        <select class="form-select" name="studsemester" required>
 							<option></option>
 							<option value="1" <c:if test = "${studentinfo.studsemester == 1}"><c:out value="selected" /></c:if> >1</option>
 							<option value="2" <c:if test = "${studentinfo.studsemester == 2}"><c:out value="selected" /></c:if> >2</option>
