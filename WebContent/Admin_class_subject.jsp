@@ -87,7 +87,7 @@
 					</c:if>
                     <div class="col-4"></div>
                     <div class="col-4">
-                        <label class="form-label">Kelas</label>
+                        <label class="form-label">Kelas*</label>
                         <select class="form-select" name="classid" required>
                             <option value=""></option>
                             <c:forEach items="${classlist}" var="cl">
