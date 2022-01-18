@@ -77,7 +77,7 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">ID Staf</label>
+                        <label class="form-label">ID Staf*</label>
                         <input type="hidden" class="form-control" name="update_action" value="account">
                         <input type="text" class="form-control" name="adminid" value="<c:out value="${admininfo.adminid}" />" readonly>
                         <div class="invalid-feedback">
@@ -85,21 +85,21 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Nama</label>
+                        <label class="form-label">Nama*</label>
                         <input type="text" class="form-control" name="adminname" value="<c:out value="${admininfo.adminname}" />" required>
                         <div class="invalid-feedback">
                             Sila isi nama staf dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Kata Laluan</label>
+                        <label class="form-label">Kata Laluan*</label>
                         <input type="text" class="form-control" name="adminpassword" value="<c:out value="${admininfo.adminpassword}" />" maxLength="8" required>
                         <div class="invalid-feedback">
                             Sila isi kata laluan dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Penyelia</label>
+                        <label class="form-label">Penyelia*</label>
                         <select class="form-select" name="superviseid" required>
 							<option value="0"></option>
 							<c:forEach items="${superviselist}" var="sl">
@@ -111,21 +111,21 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Email Staf</label>
+                        <label class="form-label">Email Staf*</label>
                         <input type="email" class="form-control" name="adminemail" value="<c:out value="${admininfo.adminemail}" />" required>
                         <div class="invalid-feedback">
                             Sila isi email staf dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">No. Telefon</label>
+                        <label class="form-label">No. Telefon*</label>
                         <input type="text" class="form-control" name="adminphonenum" value="<c:out value="${admininfo.adminphonenum}" />" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. telefon dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Tahap</label>
+                        <label class="form-label">Tahap*</label>
                         <input type="text" class="form-control" value="<c:out value="${admininfo.adminlevel}" />" readonly>
                     </div>
                     <hr class="my-5">
