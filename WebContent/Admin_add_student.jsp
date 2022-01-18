@@ -109,28 +109,28 @@
 						</c:choose>
 					</c:if>
                     <div class="col-6">
-                        <label class="form-label">No. Matrik</label>
+                        <label class="form-label">No. Matrik *</label>
                         <input type="text" class="form-control" name="studid" id="studid" maxLength="7" required>
                         <div class="invalid-feedback">
                             Sila isi no. matrik dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">No. Kad Pengenalan</label>
+                        <label class="form-label">No. Kad Pengenalan *</label>
                         <input type="text" class="form-control" name="studic" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi no. kad pengenalan dengan betul.
                         </div>
                     </div>
                     <div class="col-8">
-                        <label class="form-label">Nama</label>
+                        <label class="form-label">Nama *</label>
                         <input type="text" class="form-control" name="studname" id="studname" required>
                         <div class="invalid-feedback">
                             Sila isi nama dengan betul.
                         </div>
                     </div>
                     <div class="col-4">
-                        <label class="form-label">Semester</label>
+                        <label class="form-label">Semester *</label>
                         <select class="form-select" name="studsemester" required>
                             <option value=""></option>
                             <option value="1">Semester 1</option>
@@ -142,14 +142,14 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Email Pelajar</label>
+                        <label class="form-label">Email Pelajar *</label>
                         <input type="email" class="form-control" name="studemail" id="studemail" required>
                         <div class="invalid-feedback">
                             Sila isi email pelajar dengan betul.
                         </div>
                     </div>
                     <div class="col-6">
-                        <label class="form-label">Kata Laluan</label>
+                        <label class="form-label">Kata Laluan *</label>
                         <input type="text" class="form-control" name="studpassword" id="studpassword" maxLength="12" required>
                         <div class="invalid-feedback">
                             Sila isi kata laluan dengan betul.
