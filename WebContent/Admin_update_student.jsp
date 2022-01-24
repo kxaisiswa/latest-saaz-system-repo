@@ -260,14 +260,14 @@
                     <div class="row mt-4" id="homeinput" style="display: none !important;">
 	                    <div class="col-6">
 	                        <label class="form-label">Kenderaan*</label>
-	                        <input type="text" class="form-control" name="transportmode" value="<c:out value="${studentinfo.transportmode}" />" required>
+	                        <input type="text" class="form-control" name="transportmode" value="<c:out value="${studentinfo.transportmode}" />">
 	                        <div class="invalid-feedback">
 	                            Sila isi kenderaan dengan betul.
 	                        </div>
 	                    </div>
 	                    <div class="col-6">
 	                        <label class="form-label">Jarak Rumah*</label>
-	                        <input type="number" class="form-control" name="studschooldistance" value="<c:out value="${studentinfo.studschooldistance}" />" required>
+	                        <input type="number" class="form-control" name="studschooldistance" value="<c:out value="${studentinfo.studschooldistance}" />"
 	                        <div class="invalid-feedback">
 	                            Sila isi jarak rumah dengan betul.
 	                        </div>
