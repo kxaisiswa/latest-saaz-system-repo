@@ -68,7 +68,7 @@
 					</c:if>
                     <div class="col-3">
                         <label class="form-label">Kod Subjek*</label>
-                        <input type="text" class="form-control" name="subjcode" value="<c:out value="${subjectinfo.subjcode}"/>" required>
+                        <input type="text" class="form-control" name="subjcode" value="<c:out value="${subjectinfo.subjcode}"/>" readonly>
                         <div class="invalid-feedback">
                             Sila isi kod subjek dengan betul.
                         </div>
