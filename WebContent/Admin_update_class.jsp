@@ -68,7 +68,7 @@
 					</c:if>
                     <div class="col-6">
                         <label class="form-label">ID Kelas*</label>
-                        <input type="text" class="form-control" name="classid" value="<c:out value="${classinfo.classid}" />" required>
+                        <input type="text" class="form-control" name="classid" value="<c:out value="${classinfo.classid}" />" readonly>
                         <div class="invalid-feedback">
                             Sila isi ID kelas dengan betul.
                         </div>
